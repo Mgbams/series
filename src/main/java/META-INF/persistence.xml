@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="series">
+		<class>fr.orsys.kingsley.series.business.Achat</class>
+		<class>fr.orsys.kingsley.series.business.Episode</class>
+		<class>fr.orsys.kingsley.series.business.Interet</class>
+		<class>fr.orsys.kingsley.series.business.Saison</class>
+		<class>fr.orsys.kingsley.series.business.Serie</class>
+		<class>fr.orsys.kingsley.series.business.Utilisateur</class>
+		<class>fr.orsys.kingsley.series.business.Ville</class>
+	</persistence-unit>
+</persistence>
